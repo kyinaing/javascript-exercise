@@ -1,0 +1,52 @@
+let logic1 = 10 > 1;
+let logic2 = 0.2 > 0.3;
+let logic3 = -10 < 0;
+let logic4 = 50.5 < 50;
+let logic5 = 99 >= 4;
+let logic6 = 99 >= 99;
+let logic7 = 'a' < 'b';
+let logic8 = 'A' > 'a';
+let logic9 = 'A ' > 'a ';
+// Double Equal
+let logic10 = 5 == 5;
+let logic11 = 'b' == 'c';
+let logic12 = 7 == '7';
+let logic13 = 0 == '';
+let logic14 = true == false;
+let logic15 = 0 == false;
+let logic16 = null == undefined;
+// Triple Equal
+let logic17 = 5 === 5;
+let logic18 = 1 === 2;
+let logic19 = 2 === '2';
+let logic20 = false === 0;
+// Not Equal
+let logic21 = 10 != '10';
+let logic22 = 10 != 10;
+let logic23 = 10 !== '10';
+let logic24 = 10 !== 10;
+
+console.log('logic1 result is',logic1);
+console.log('logic2 result is',logic2);
+console.log('logic3 result is',logic3);
+console.log('logic4 result is',logic4);
+console.log('logic5 result is',logic5);
+console.log('logic6 result is',logic6);
+console.log('logic7 result is',logic7);
+console.log('logic8 result is',logic8);
+console.log('logic9 result is',logic9);
+console.log('logic10 result is',logic10);
+console.log('logic11 result is',logic11);
+console.log('logic12 result is',logic12);
+console.log('logic13 result is',logic13);
+console.log('logic14 result is',logic14);
+console.log('logic15 result is',logic15);
+console.log('logic16 result is',logic16);
+console.log('logic17 result is',logic17);
+console.log('logic18 result is',logic18);
+console.log('logic19 result is',logic19);
+console.log('logic20 result is',logic20);
+console.log('logic21 result is',logic21);
+console.log('logic22 result is',logic22);
+console.log('logic23 result is',logic23);
+console.log('logic24 result is',logic24);

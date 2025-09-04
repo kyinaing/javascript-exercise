@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variable</title>
+</head>
+
+<body>
+    <script>
+        const age = "5" + "4";
+        console.log("Age is",age, "and Type of Age is", typeof(age));
+        const index1 = "pecan pie"[7];
+        const index2 = "PUP"[3];
+        console.log ("index 1 and index 2 is ", index1, index2);
+        let song = "london calling"
+        song.toUpperCase();
+        console.log(song);
+        let userInput = "  TODD@gmail.com";
+        let cleanInput = userInput.trim().toLowerCase();
+        console.log("User Email Address is", cleanInput);
+        let park = "Yellowstone"
+        const index = park.indexOf('Stone');
+        console.log(`${index}, type is ${typeof(index)}`);
+        let sliceReplace = "GARBAGE!".slice(2).replace("B", '');
+        console.log("Your sliceReplace is", sliceReplace);
+
+    </script>
+    <script>
+        const firstDice = Math.floor(Math.random() * 10) + 1;
+
+        const secondDice = Math.round(Math.random() * 10) + 1;
+
+        console.log(`Your first Dice result = ${firstDice} and \nYour second Dice result = ${secondDice} \nYour total result = ${firstDice + secondDice} \t Your turn!`);
+
+        let number1 = parseInt('24dayslater');
+        let number2 = parseInt('24.987');
+        let number3 = parseFloat('24dayslater');
+        let number4 = parseFloat('24.987dayslater');
+        let number5 = parseInt('days24');
+
+        console.log(`${number1} and ${number2} and ${number3} and ${number4} and ${number5} `)
+
+        
+    </script>
+    <script>
+        let item = "Water melon";
+        let price = 1.99;
+        let quantity = 5;
+
+        console.log(`You bough ${quantity} quantities of ${item}, the total price is: $${price * quantity}`)
+    </script>
+</body>
+
+</html>
