@@ -86,6 +86,10 @@ const printTriple = numbers.forEach(function (num) {
     console.log(`Triple of ${num} is ${num * 3}`);
 })
 
+const printDouble = numbers.forEach(function (num, idx) {
+    console.log(`Index ${idx} of ${num} Double is ${num * 2}`)
+})
+
 //============================================================================================
 // MAP
 //Map creates a new array by calling your callback function with each element in the original array.
@@ -100,6 +104,8 @@ const numDetail = numbers.map(function (n) {
         isEven: n % 2 === 0
     }
 })
+
+
 
 const abbrevs = words.map(function (word) {
     return word.toUpperCase().split('').join('.');
