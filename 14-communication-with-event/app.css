@@ -1,0 +1,28 @@
+#clickMe {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 80px;
+    height: 40px;
+}
+
+#boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: 200px;
+    height: 100px
+}
+
+#h1Color {
+    text-align: center;
+}
+
+#shopping {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
